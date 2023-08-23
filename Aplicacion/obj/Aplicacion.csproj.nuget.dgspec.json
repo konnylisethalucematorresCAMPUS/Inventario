@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/apolM01-054/Music/Practicas/Inventario/Aplicacion/Aplicacion.csproj": {}
+  },
+  "projects": {
+    "/home/apolM01-054/Music/Practicas/Inventario/Aplicacion/Aplicacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/apolM01-054/Music/Practicas/Inventario/Aplicacion/Aplicacion.csproj",
+        "projectName": "Aplicacion",
+        "projectPath": "/home/apolM01-054/Music/Practicas/Inventario/Aplicacion/Aplicacion.csproj",
+        "packagesPath": "/home/apolM01-054/.nuget/packages/",
+        "outputPath": "/home/apolM01-054/Music/Practicas/Inventario/Aplicacion/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/apolM01-054/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/apolM01-054/Music/Practicas/Inventario/Dominio/Dominio.csproj": {
+                "projectPath": "/home/apolM01-054/Music/Practicas/Inventario/Dominio/Dominio.csproj"
+              },
+              "/home/apolM01-054/Music/Practicas/Inventario/Persistencia/Persistencia.csproj": {
+                "projectPath": "/home/apolM01-054/Music/Practicas/Inventario/Persistencia/Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/apolM01-054/Music/Practicas/Inventario/Dominio/Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/apolM01-054/Music/Practicas/Inventario/Dominio/Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "/home/apolM01-054/Music/Practicas/Inventario/Dominio/Dominio.csproj",
+        "packagesPath": "/home/apolM01-054/.nuget/packages/",
+        "outputPath": "/home/apolM01-054/Music/Practicas/Inventario/Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/apolM01-054/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "itext7.pdfhtml": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/apolM01-054/Music/Practicas/Inventario/Persistencia/Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/apolM01-054/Music/Practicas/Inventario/Persistencia/Persistencia.csproj",
+        "projectName": "Persistencia",
+        "projectPath": "/home/apolM01-054/Music/Practicas/Inventario/Persistencia/Persistencia.csproj",
+        "packagesPath": "/home/apolM01-054/.nuget/packages/",
+        "outputPath": "/home/apolM01-054/Music/Practicas/Inventario/Persistencia/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/apolM01-054/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/apolM01-054/Music/Practicas/Inventario/Dominio/Dominio.csproj": {
+                "projectPath": "/home/apolM01-054/Music/Practicas/Inventario/Dominio/Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
